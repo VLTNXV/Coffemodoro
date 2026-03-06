@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <!-- Steam -->
+  <path d="M4.5 5.5 C5 4.5 4 3.5 4.5 2" stroke="currentColor" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <path d="M7.5 5.5 C8 4.5 7 3.5 7.5 2" stroke="currentColor" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <!-- Mug body -->
+  <rect x="1" y="6" width="10" height="8.5" rx="1.5" fill="currentColor"/>
+  <!-- Handle -->
+  <path d="M11 8 Q14.5 10.25 11 12.5" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Coffemodoro
+Comment=Coffee-themed Pomodoro timer
+Exec=coffemodoro
+Icon=coffemodoro-idle
+Terminal=false
+Type=Application
+Categories=Utility;
+StartupNotify=true

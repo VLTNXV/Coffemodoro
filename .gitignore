@@ -1,0 +1,12 @@
+.worktrees/
+__pycache__/
+*.pyc
+.pytest_cache/
+.claude/
+*.db
+*.sqlite
+*.sqlite3
+IDEAS.md
+build/
+dist/
+*.egg-info/

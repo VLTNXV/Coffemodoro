@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="coffee_machine_icon.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0138553"
+     inkscape:cx="385.16343"
+     inkscape:cy="557.77188"
+     inkscape:window-width="1712"
+     inkscape:window-height="974"
+     inkscape:window-x="0"
+     inkscape:window-y="34"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Coffee_Machine"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g13"
+       inkscape:label="coffee_machine_body">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none"
+         id="rect2"
+         width="144.80312"
+         height="19.817898"
+         x="32.598442"
+         y="203.59708"
+         ry="7.8690419" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none"
+         id="rect3"
+         width="111.11493"
+         height="99.87574"
+         x="49.442535"
+         y="103.72133"
+         rx="16.851513"
+         ry="1.2646484e-06" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none"
+         id="rect5"
+         width="144.80313"
+         height="34.697216"
+         x="32.598442"
+         y="69.024117"
+         ry="7.8690419" />
+    </g>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none"
+       id="rect7"
+       width="47.033062"
+       height="22.272924"
+       x="81.483467"
+       y="103.72133"
+       ry="1.9199125"
+       inkscape:label="nozzle_base" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none"
+       id="rect8"
+       width="10.559518"
+       height="7.1996703"
+       x="88.74588"
+       y="125.99426"
+       ry="1.9199125"
+       inkscape:label="left_nozzle" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none"
+       id="rect9"
+       width="10.559518"
+       height="7.1996703"
+       x="110.34489"
+       y="125.99426"
+       ry="1.9199125"
+       inkscape:label="right_nozzle" />
+    <path
+       id="rect10"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-dasharray:none"
+       d="m 82.037379,160.73628 h 44.746161 c 1.06363,0 1.92916,0.84726 1.91991,1.91991 l -0.24404,28.28336 c -0.11552,13.38759 -12.84417,12.65753 -13.66973,12.65753 H 95.210319 c -1.063631,0 -15.453265,0.82996 -15.33689,-12.65753 l 0.244039,-28.28336 c 0.0092,-1.06359 0.85628,-1.91991 1.919911,-1.91991 z"
+       sodipodi:nodetypes="sssssssss"
+       inkscape:label="coffee_mug" />
+    <path
+       id="rect12"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:none"
+       d="m 130.50134,165.11775 h 7.82235 c 5.56758,0 5.22872,23.36023 0,23.36023 h -7.82235 c -1.06363,0 -1.91991,-0.85628 -1.91991,-1.91991 v -19.52041 c 0,-1.06363 0.85628,-1.91991 1.91991,-1.91991 z"
+       sodipodi:nodetypes="sssssss"
+       inkscape:label="coffee_mug_handle" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;paint-order:normal"
+       id="rect13"
+       width="35.647491"
+       height="12.068382"
+       x="87.176262"
+       y="80.338531"
+       ry="3.2924051"
+       inkscape:label="display" />
+    <circle
+       style="fill:#000000;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;paint-order:normal;fill-opacity:1"
+       id="path13"
+       cx="71.648911"
+       cy="86.372719"
+       r="3.5618963"
+       inkscape:label="indicator" />
+  </g>
+</svg>
