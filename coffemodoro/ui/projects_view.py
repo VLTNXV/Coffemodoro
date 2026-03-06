@@ -40,6 +40,7 @@ class ProjectsView(Gtk.Box):
         header.set_show_start_title_buttons(False)
         add_btn = Gtk.Button(icon_name="coffemodoro-add-symbolic")
         add_btn.add_css_class("flat")
+        add_btn.set_tooltip_text("Create project")
         add_btn.connect("clicked", self._on_add_project)
         header.pack_end(add_btn)
         self.append(header)
@@ -92,6 +93,13 @@ class ProjectsView(Gtk.Box):
             export_btn.set_tooltip_text("Export summary")
             export_btn.connect("clicked", self._make_export_handler(project_id, name))
             expander.add_suffix(export_btn)
+
+            rename_btn = Gtk.Button(icon_name="coffemodoro-edit-symbolic")
+            rename_btn.add_css_class("flat")
+            rename_btn.set_valign(Gtk.Align.CENTER)
+            rename_btn.set_tooltip_text("Rename project")
+            rename_btn.connect("clicked", self._make_rename_handler(project_id, name))
+            expander.add_suffix(rename_btn)
 
             del_btn = Gtk.Button(icon_name="coffemodoro-trash-symbolic")
             del_btn.add_css_class("flat")
@@ -261,6 +269,34 @@ class ProjectsView(Gtk.Box):
             return
         filename = os.path.basename(path)
         self._toast_overlay.add_toast(Adw.Toast(title=f"Exported to {filename}"))
+
+    def _make_rename_handler(self, project_id: int, current_name: str):
+        def handler(_btn):
+            dialog = Adw.AlertDialog(heading="Rename Project", body="Enter a new name:")
+            dialog.add_response("cancel", "Cancel")
+            dialog.add_response("rename", "Rename")
+            dialog.set_response_appearance("rename", Adw.ResponseAppearance.SUGGESTED)
+            dialog.set_default_response("rename")
+            dialog.set_close_response("cancel")
+
+            entry = Gtk.Entry()
+            entry.set_text(current_name)
+            entry.set_placeholder_text("Project name")
+            dialog.set_extra_child(entry)
+
+            def on_response(d, response):
+                if response == "rename":
+                    name = entry.get_text().strip()
+                    if name and name != current_name:
+                        try:
+                            self.db.rename_project(project_id, name)
+                            self.refresh()
+                        except Exception:
+                            pass  # duplicate name — ignore silently
+
+            dialog.connect("response", on_response)
+            dialog.present(self)
+        return handler
 
     def _on_add_project(self, _btn):
         dialog = Adw.AlertDialog(heading="New Project", body="Enter a project name:")

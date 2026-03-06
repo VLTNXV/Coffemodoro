@@ -64,6 +64,12 @@ class Database:
         self._conn.commit()
         return cur.lastrowid
 
+    def rename_project(self, project_id: int, name: str) -> None:
+        self._conn.execute(
+            "UPDATE projects SET name = ? WHERE id = ?", (name, project_id)
+        )
+        self._conn.commit()
+
     def get_projects(self) -> list[dict]:
         rows = self._conn.execute(
             "SELECT * FROM projects ORDER BY name"
