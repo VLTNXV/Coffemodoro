@@ -1,7 +1,7 @@
 import gi
 import os
 gi.require_version("Notify", "0.7")
-from gi.repository import Notify
+from gi.repository import Notify, GLib
 
 try:
     gi.require_version("Gst", "1.0")
@@ -29,6 +29,7 @@ class Notifier:
             }
             title, body = messages.get(mode, ("Timer complete!", ""))
             n = Notify.Notification.new(title, body, "dialog-information")
+            n.set_hint("desktop-entry", GLib.Variant("s", "coffemodoro"))
             try:
                 n.show()
             except Exception:
