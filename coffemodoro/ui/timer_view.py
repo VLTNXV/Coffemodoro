@@ -9,11 +9,10 @@ from coffemodoro.ui.animation import CoffeeAnimation
 
 
 class TimerView(Gtk.Box):
-    def __init__(self, timer: Timer, db: Database, on_session_complete=None):
+    def __init__(self, timer: Timer, db: Database):
         super().__init__(orientation=Gtk.Orientation.VERTICAL, spacing=0)
         self.timer = timer
         self.db = db
-        self.on_session_complete = on_session_complete
         self._build_ui()
         self._refresh_labels()
         self._refresh_project_label()
