@@ -23,6 +23,7 @@ A coffee-themed Pomodoro timer for GNOME.
 
 - GNOME 45 or newer
 - Supported distros: Ubuntu 24.04+, Fedora 40+, Arch Linux, Debian 13+, openSUSE Tumbleweed
+- Tested on: Ubuntu 24.04, Fedora 43, Debian 13
 
 ## Installation
 
@@ -54,5 +55,5 @@ Removes the app, desktop entry, and icons. Your data (`~/.local/share/coffemodor
 ---
 
 > [!NOTE]
-> This project was built entirely using [Claude Code](https://claude.ai/claude-code) by Anthropic.
+> This project was built using Claude Code.
 > The coffee machine SVG asset was created by [VLTNXV](https://github.com/VLTNXV).
