@@ -2,7 +2,7 @@
 
 A coffee-themed Pomodoro timer for GNOME.
 
-| Dark | Light |
+| Dark mode (Debian) | Light mode (Debian) |
 |:----:|:-----:|
 | ![Dark theme](docs/screenshots/coffemodoro_dark.png) | ![Light theme](docs/screenshots/coffemodoro_light.png) |
 
